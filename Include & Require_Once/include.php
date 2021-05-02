@@ -1,6 +1,6 @@
 <?php
 
-include "../PDO/Connection.php";
+include "../PDO/MySQL/Connection.php";
 
 // ! Make some database operations
 
