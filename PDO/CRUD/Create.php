@@ -2,7 +2,7 @@
 
 include "../Connection.php";
 
-$query = $db->prepare("INSERT INTO tableName SET 
+$query = $db->prepare("INSERT INTO tableName (name, surname, age, mail) 
     name =: a,
     surname =: b,
     age =: c,
